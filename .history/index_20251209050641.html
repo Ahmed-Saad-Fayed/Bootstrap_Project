@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bootstrap</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="bootstrap-icons/bootstrap-icons.css">
+    </head>
+    <body>
+
+        <nav class="navbar navbar-expand-lg bg-white py-3 shadow-sm">
+            <div class="container">
+                <a class="navbar-brand fs-3 fw-bold" href="#"><img
+                        src="img/main-logo.png" alt="logo"></a>
+
+                <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#nav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="nav">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-3">
+                        <li class="nav-item"><a
+                                class="nav-link active text-info"
+                                href="#">HOME</a></li>
+                        <li class="nav-item"><a class="nav-link"
+                                href="#">SERVICES</a></li>
+                        <li class="nav-item"><a class="nav-link"
+                                href="#">PRODUCTS</a></li>
+                        <li class="nav-item"><a class="nav-link"
+                                href="#">WATCHES</a></li>
+                        <li class="nav-item"><a class="nav-link"
+                                href="#">SALE</a></li>
+                        <li class="nav-item"><a class="nav-link"
+                                href="#">BLOG</a></li>
+                    </ul>
+
+                    <div class="d-flex align-items-center gap-3 ms-3">
+                        <a href="#" class="text-dark fs-5"><i
+                                class="bi bi-search"></i></a>
+                        <a href="#" class="text-dark fs-5"><i
+                                class="bi bi-person-fill"></i></a>
+                        <a href="#" class="text-dark fs-5"><i
+                                class="bi bi-cart-fill"></i></a>
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+
+        <!--==========================================-->
+        <div id="mainSlider" class="carousel slide" data-bs-ride="carousel">
+
+            <!-- ================================== -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#mainSlider"
+                    data-bs-slide-to="0" class="active text-bg-info"></button>
+                <button type="button" data-bs-target="#mainSlider"
+                    data-bs-slide-to="1" class="text-bg-dark"></button>
+                <button type="button" data-bs-target="#mainSlider"
+                    data-bs-slide-to="2" class="text-bg-dark"></button>
+            </div>
+
+            <div class="carousel-inner">
+
+                <!-- _____________________________1___________________________________ -->
+                <div class="carousel-item active">
+                    <section class="py-5" style="background:#F3F3F3;">
+                        <div class="container">
+                            <div class="row align-items-center">
+
+                                <div class="col-md-6">
+                                    <h1 class="display-4 fw-bold">YOUR
+                                        PRODUCTS<br>ARE GREAT.</h1>
+                                    <a
+                                        class="btn btn-dark btn-lg mt-4 px-4">SHOP
+                                        PRODUCT</a>
+                                </div>
+
+                                <div class="col-md-6 text-center">
+                                    <img src="img/banner-image.png"
+                                        class="img-fluid" alt="Watch">
+                                </div>
+
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                <!--___________________________2___________________________________ -->
+                <div class="carousel-item">
+                    <section class="py-5" style="background:#F3F3F3;">
+                        <div class="container">
+                            <div class="row align-items-center">
+
+                                <div class="col-md-6">
+                                    <h1 class="display-4 fw-bold">NEW
+                                        Iphone<br>2025 EDITION.</h1>
+                                    <a
+                                        class="btn btn-dark btn-lg mt-4 px-4">VIEW
+                                        MORE</a>
+                                </div>
+
+                                <div class="col-md-6 text-center">
+                                    <img src="img/banner-image2.png"
+                                        class="img-fluid" alt="Watch">
+                                </div>
+
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                <!--_________________________________3_______________________________________ -->
+                <div class="carousel-item">
+                    <section class="py-5" style="background:#F3F3F3;">
+                        <div class="container">
+                            <div class="row align-items-center">
+
+                                <div class="col-md-6">
+                                    <h1 class="display-4 fw-bold">BEST
+                                        QUALITY<br>MODERN DESIGN.</h1>
+                                    <a class="btn btn-dark btn-lg mt-4 px-4">BUY
+                                        NOW</a>
+                                </div>
+
+                                <div class="col-md-6 text-center">
+                                    <img src="img/banner-image3.png"
+                                        class="img-fluid" alt="Watch">
+                                </div>
+
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <!-- ============================================= -->
+            <!-- </> -->
+            <button
+                class="carousel-control-prev position-absolute top-50 translate-middle-y"
+                style="left:-20px;"
+                type="button" data-bs-target="#mainSlider" data-bs-slide="prev">
+                <span class="bi bi-chevron-left fs-1 text-secondary"></span>
+            </button>
+
+            <button
+                class="carousel-control-next position-absolute top-50 end-0 translate-middle-y me-2"
+                type="button" data-bs-target="#mainSlider" data-bs-slide="next">
+                <span class="bi bi-chevron-right fs-1 text-info"></span>
+            </button>
+        </div>
+
+        <!-- =============================================================== -->
+        <div class="container my-5">
+            <div class="row text-start">
+
+                <!-- ____________________FREE________________________ -->
+                <div class="col-md-3 mb-4 d-flex align-items-start">
+                    <i class="bi bi-cart fs-1 text-info me-3"></i>
+                    <div>
+                        <h5>FREE DELIVERY</h5>
+                        <p class="text-muted mb-0">Consectetur adipi elit lorem
+                            ipsum dolor sit amet.</p>
+                    </div>
+                </div>
+
+                <!-- _______________________QUALITY___________________________ -->
+                <div class="col-md-3 mb-4 d-flex align-items-start">
+                    <i class="bi bi-award fs-1 text-info me-3"></i>
+                    <div>
+                        <h5>QUALITY GUARANTEE</h5>
+                        <p class="text-muted mb-0">Dolor sit amet orem ipsu
+                            mconsectetur adipi elit.</p>
+                    </div>
+                </div>
+
+                <!-- _______________________DAILY_______________________ -->
+                <div class="col-md-3 mb-4 d-flex align-items-start">
+                    <i class="bi bi-tags fs-1 text-info me-3"></i>
+                    <div>
+                        <h5>DAILY OFFERS</h5>
+                        <p class="text-muted mb-0">Amet consectetur adipi elit
+                            loreme ipsum dolor sit.</p>
+                    </div>
+                </div>
+
+                <!-- ______________________SECURE________________________-->
+                <div class="col-md-3 mb-4 d-flex align-items-start">
+                    <i class="bi bi-shield-check fs-1 text-info me-3"></i>
+                    <div>
+                        <h5>100% SECURE PAYMENT</h5>
+                        <p class="text-muted mb-0">Rem Lopsum dolor sit amet,
+                            consectetur adipi elit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ================================================================= -->
+        <div class="container my-5">
+
+            <!-- ===== MOBILE PRODUCTS ===== -->
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <h4 class="mb-0">MOBILE PRODUCTS</h4>
+                <a href="#" class="text-decoration-none text-muted small">GO TO
+                    SHOP</a>
+            </div>
+
+            <div id="mobileSlider" class="carousel slide"
+                data-bs-ride="carousel">
+                <div class="carousel-inner">
+
+                    <!-- Slide 1 -->
+                    <div class="carousel-item active">
+                        <div class="row text-center">
+                            <div class="col-md-3">
+                                <img src="img/MOBILE/product-item1.jpg"
+                                    class="img-fluid mb-2">
+                                <div class="d-flex justify-content-between">
+                                    <span>IPHONE 10</span>
+                                    <span class="text-info">$980</span>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <img src="img/MOBILE/product-item2.jpg"
+                                    class="img-fluid mb-2">
+                                <div class="d-flex justify-content-between">
+                                    <span>IPHONE 11</span>
+                                    <span class="text-info">$1100</span>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <img src="img/MOBILE/product-item3.jpg"
+                                    class="img-fluid mb-2">
+                                <div class="d-flex justify-content-between">
+                                    <span>IPHONE 8</span>
+                                    <span class="text-info">$780</span>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <img src="img/MOBILE/product-item4.jpg"
+                                    class="img-fluid mb-2">
+                                <div class="d-flex justify-content-between">
+                                    <span>IPHONE 13</span>
+                                    <span class="text-info">$1500</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slide 2 -->
+                    <div class="carousel-item">
+                        <div class="row text-center">
+                            <div class="col-md-3">
+                                <img src="img/MOBILE/product-item5.jpg"
+                                    class="img-fluid mb-2">
+                                <div class="d-flex justify-content-between">
+                                    <span>IPHONE 9</span>
+                                    <span class="text-info">$900</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Dots -->
+                <div class="carousel-indicators position-static mt-3">
+                    <button type="button" data-bs-target="#mobileSlider"
+                        data-bs-slide-to="0"
+                        class="active text-bg-dark"></button>
+                    <button type="button" data-bs-target="#mobileSlider"
+                        data-bs-slide-to="1" class="text-bg-secondary"></button>
+                </div>
+            </div>
+
+            <!-- ===== SMART WATCHES ===== -->
+            <div
+                class="d-flex justify-content-between align-items-center mt-5 mb-4">
+                <h4 class="mb-0">SMART WATCHES</h4>
+                <a href="#" class="text-decoration-none text-muted small">GO TO
+                    SHOP</a>
+            </div>
+
+            <div id="watchSlider" class="carousel slide"
+                data-bs-ride="carousel">
+
+                <div class="carousel-inner">
+
+                    <!-- ===== Slide 1 ===== -->
+                    <div class="carousel-item active">
+                        <div class="row text-center">
+                            <div class="col-md-3">
+                                <img src="img/SMART/product-item6.jpg"
+                                    class="img-fluid mb-2">
+                                <div class="d-flex justify-content-between">
+                                    <span>PINK WATCH</span>
+                                    <span class="text-info">$870</span>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3">
+                                <img src="img/SMART/product-item7.jpg"
+                                    class="img-fluid mb-2">
+                                <div class="d-flex justify-content-between">
+                                    <span>HEAVY WATCH</span>
+                                    <span class="text-info">$680</span>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3">
+                                <img src="img/SMART/product-item8.jpg"
+                                    class="img-fluid mb-2">
+                                <div class="d-flex justify-content-between">
+                                    <span>SPOTTED WATCH</span>
+                                    <span class="text-info">$750</span>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3">
+                                <img src="img/SMART/product-item9.jpg"
+                                    class="img-fluid mb-2">
+                                <div class="d-flex justify-content-between">
+                                    <span>BLACK WATCH</span>
+                                    <span class="text-info">$650</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ===== Slide 2 ===== -->
+                    <div class="carousel-item">
+                        <div class="row text-center">
+                            <div class="col-md-3">
+                                <img src="img/SMART/product-item10.jpg"
+                                    class="img-fluid mb-2">
+                                <div class="d-flex justify-content-between">
+                                    <span>NEW WATCH</span>
+                                    <span class="text-info">$720</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- ===== Indicators ===== -->
+                <div class="carousel-indicators position-static mt-3">
+                    <button type="button" data-bs-target="#watchSlider"
+                        data-bs-slide-to="0"
+                        class="active text-bg-dark"></button>
+                    <button type="button" data-bs-target="#watchSlider"
+                        class="text-bg-secondary"
+                        data-bs-slide-to="1"></button>
+                </div>
+            </div>
+        </div>
+        <!-- ======================================================================================== -->
+        <section class="py-5" style="background:#dbe0e3;">
+            <div class="container">
+                <div class="row align-items-center">
+
+                    <div class="col-md-6">
+                        <h1 class="display-4 fw-bold"><span
+                                class="display-6">10% off</span><br>NEW
+                            YEAR<br>SALE</h1>
+                        <a
+                            class="btn btn-dark btn-lg mt-4 px-4">SHOP
+                            SALE</a>
+                    </div>
+
+                    <div class="col-md-6 text-center mt-4 mt-md-0">
+                        <img src="img/single-image1.png"
+                            class="img-fluid rounded" alt="Watch">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ======================================================================================== -->
+        <section class="py-5">
+            <div class="container">
+
+                <!-- Header -->
+                <div
+                    class="d-flex justify-content-between align-items-center mb-4">
+                    <h4 class="mb-0">LATEST POSTS</h4>
+                    <a href="#"
+                        class="text-decoration-none text-muted small">READ
+                        BLOG</a>
+                </div>
+
+                <!-- Posts -->
+                <div class="row">
+
+                    <!-- Post 1 -->
+                    <div class="col-md-4 mb-4">
+                        <img src="img/post/post-item1.jpg"
+                            class="img-fluid mb-3"
+                            alt>
+                        <small class="text-muted d-block mb-1">
+                            FEB 22, 2023 · GADGETS
+                        </small>
+                        <h6 class="fw-semibold">
+                            GET SOME COOL GADGETS IN 2023
+                        </h6>
+                    </div>
+
+                    <!-- Post 2 -->
+                    <div class="col-md-4 mb-4">
+                        <img src="img/post/post-item2.jpg"
+                            class="img-fluid mb-3"
+                            alt>
+                        <small class="text-muted d-block mb-1">
+                            FEB 25, 2023 · TECHNOLOGY
+                        </small>
+                        <h6 class="fw-semibold">
+                            TECHNOLOGY HACK YOU WON'T GET
+                        </h6>
+                    </div>
+
+                    <!-- Post 3 -->
+                    <div class="col-md-4 mb-4">
+                        <img src="img/post/post-item3.jpg"
+                            class="img-fluid mb-3"
+                            alt>
+                        <small class="text-muted d-block mb-1">
+                            FEB 22, 2023 · CAMERA
+                        </small>
+                        <h6 class="fw-semibold">
+                            TOP 10 SMALL CAMERA IN THE WORLD
+                        </h6>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- ======================================================================================== -->
+
+        <div class="container py-5 text-center">
+
+            <div id="reviewSlider" class="carousel slide"
+                data-bs-ride="carousel">
+
+                <div class="carousel-inner">
+
+                    <!-- ______________________________R1_________________________________ -->
+                    <div class="carousel-item">
+                        <div class="text-center mt-5">
+                            <span class="fs-1 text-muted">❝❞</span>
+                        </div>
+                        <p class="fs-4 w-75 mx-auto">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing
+                            elit. Eos unde, repudiandae dignissimos debitis
+                            consequuntur, corrupti minus accusamus blanditiis
+                            sunt, eveniet placeat quas dolore repellat quasi?
+                            Enim, consequuntur. Similique, sint?
+                        </p>
+
+                        <div class="my-3">
+                            <i class="bi bi-star-fill text-info"></i>
+                            <i class="bi bi-star-fill text-info"></i>
+                            <i class="bi bi-star-fill text-info"></i>
+                            <i class="bi bi-star-fill text-info"></i>
+                            <i class="bi bi-star text-info"></i>
+                        </div>
+
+                        <h6 class="fw-bold">EMMA CHAMBERLIN</h6>
+                    </div>
+
+                    <!-- _______________________R2___________________________ -->
+                    <div class="carousel-item active">
+                        <div class="text-center mt-5">
+                            <span class="fs-1 text-muted">❝❞</span>
+                        </div>
+                        <p class="fs-4 w-75 mx-auto">
+                            Amazing service and great support. Highly
+                            recommended for everyone.
+                        </p>
+
+                        <div class="my-3">
+                            <i class="bi bi-star-fill text-info"></i>
+                            <i class="bi bi-star-fill text-info"></i>
+                            <i class="bi bi-star-fill text-info"></i>
+                            <i class="bi bi-star-fill text-info"></i>
+                            <i class="bi bi-star-fill text-info"></i>
+                        </div>
+
+                        <h6 class="fw-bold">AHMED FAYED</h6>
+                    </div>
+
+                    <!--_______________________________R3_________________________________ -->
+                    <div class="carousel-item">
+                        <div class="text-center mt-5">
+                            <span class="fs-1 text-muted">❝❞</span>
+                        </div>
+                        <p class="fs-4 w-75 mx-auto">
+                            Perfect experience from start to finish. Will use
+                            again for sure.
+                        </p>
+
+                        <div class="my-3">
+                            <i class="bi bi-star-fill text-info"></i>
+                            <i class="bi bi-star-fill text-info"></i>
+                            <i class="bi bi-star-fill text-info"></i>
+                            <i class="bi bi-star text-info"></i>
+                            <i class="bi bi-star text-info"></i>
+                        </div>
+
+                        <h6 class="fw-bold">SARA ALI</h6>
+                    </div>
+
+                </div>
+
+                <!-- </> -->
+                <button
+                    class="carousel-control-prev position-absolute top-50 translate-middle-y"
+                    type="button" data-bs-target="#reviewSlider"
+                    data-bs-slide="prev">
+                    <span class="bi bi-chevron-left fs-1 text-secondary"></span>
+                </button>
+
+                <button
+                    class="carousel-control-next position-absolute top-50 end-0 translate-middle-y me-2"
+                    type="button" data-bs-target="#reviewSlider"
+                    data-bs-slide="next">
+                    <span class="bi bi-chevron-right fs-1 text-info"></span>
+                </button>
+
+            </div>
+        </div>
+
+        <!-- ===== ==================================================== -->
+        <div class="container py-5">
+            <div class="bg-dark text-white p-5 rounded">
+
+                <div
+                    class="d-flex flex-column flex-md-row align-items-center justify-content-between gap-3">
+
+                    <div>
+                        <h3>SUBSCRIBE US NOW</h3>
+                        <p class="text-secondary mb-0">
+                            Get latest news, updates and deals directly
+                            mailed to your inbox.
+                        </p>
+                    </div>
+
+                    <div class="input-group w-50">
+                        <input type="email" class="form-control"
+                            placeholder="Your email address here">
+                        <button
+                            class="btn btn-info text-white">SUBSCRIBE</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ========================================================================================== -->
+        <!-- ===== SHOP OUR INSTA ===== -->
+        <section class="py-5">
+            <div class="container">
+                <h4 class="text-center mb-4">SHOP OUR INSTA</h4>
+
+                <div class="row g-2">
+                    <div class="col">
+                        <img src="img/insta/insta-item1.jpg" class="img-fluid"
+                            alt="x1">
+                    </div>
+                    <div class="col">
+                        <img src="img/insta/insta-item2.jpg" class="img-fluid"
+                            alt="x2">
+                    </div>
+                    <div class="col">
+                        <img src="img/insta/insta-item3.jpg" class="img-fluid"
+                            alt="x3">
+                    </div>
+                    <div class="col">
+                        <img src="img/insta/insta-item4.jpg" class="img-fluid"
+                            alt="x4">
+                    </div>
+                    <div class="col">
+                        <img src="img/insta/insta-item5.jpg" class="img-fluid"
+                            alt="x5">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== FOOTER ===== -->
+        <footer class="pt-5 border-top">
+            <div class="container">
+
+                <div class="row">
+
+                    <!-- Brand -->
+                    <div class="col-md-3 mb-4">
+                        <a class="navbar-brand fs-3 fw-bold" href="#"><img
+                                src="img/main-logo.png" alt="logo"></a>
+                        <p class="text-muted small">
+                            Nisi, purus vitae, ultrices nunc. Sit ac sit
+                            suscipit
+                            hendrerit. Gravida massa volutpat aenean odio erat
+                            nullam.
+                        </p>
+
+                        <!-- Social Icons -->
+                        <div class="d-flex gap-3 text-muted">
+                            <a href="#"><i class="bi bi-facebook"></i></a>
+                            <a href="#"  class="text-secondary"><i class="bi bi-instagram"></i></a>
+                            <a href="#"  class="text-secondary"><i class="bi bi-twitter"></i></a>
+                            <a href="#"  class="text-secondary"><i class="bi bi-linkedin"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Quick Links -->
+                    <div class="col-md-3 mb-4">
+                        <h6 class="mb-3">QUICK LINKS</h6>
+                        <ul class="list-unstyled small">
+                            <li>HOME</li>
+                            <li>ABOUT</li>
+                            <li>SHOP</li>
+                            <li>BLOGS</li>
+                            <li>CONTACT</li>
+                        </ul>
+                    </div>
+
+                    <!-- Help -->
+                    <div class="col-md-3 mb-4">
+                        <h6 class="mb-3">HELP & INFO HELP</h6>
+                        <ul class="list-unstyled small">
+                            <li>TRACK YOUR ORDER</li>
+                            <li>RETURNS POLICIES</li>
+                            <li>SHIPPING + DELIVERY</li>
+                            <li>CONTACT US</li>
+                            <li>FAQS</li>
+                        </ul>
+                    </div>
+
+                    <!-- Contact -->
+                    <div class="col-md-3 mb-4">
+                        <h6 class="mb-3">CONTACT US</h6>
+                        <p class="small text-muted mb-1">
+                            Do you have any queries or suggestions?
+                        </p>
+                        <p class="small mb-2">yourinfo@gmail.com</p>
+                        <p class="small text-muted mb-1">
+                            If you need support? Just give us a call.
+                        </p>
+                        <p class="fw-semibold small">+55 111 222 333 44</p>
+                    </div>
+
+                </div>
+
+                <!-- Bottom Bar -->
+                <div
+                    class="d-flex flex-column flex-md-row justify-content-between align-items-center border-top pt-3 mt-4 small text-muted">
+                    <div>
+                        We ship with: <strong>DHL</strong>
+                    </div>
+
+                    <div>
+                        Payment options: VISA | MasterCard | PayPal
+                    </div>
+
+                    <div>
+                        © Copyright 2025. Design by Distribution
+                    </div>
+                </div>
+
+            </div>
+        </footer>
+
+        <script src="js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
